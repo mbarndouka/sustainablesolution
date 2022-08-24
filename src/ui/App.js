@@ -5,6 +5,8 @@ import Notfound from './pages/Notfound/Notfound';
 import Loading from './pages/Loading/Loading';
 import Signin from './pages/signin/Signin';
 import Signup from './pages/Signup/Signup';
+import Dashspon from './pages/Dashborbsponsor/Dashspon';
+import Searchsch from './pages/Searchschool/Searhsch';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route path='/' element ={< Home />}/>
         <Route path='/Signup' element = {<Signup/>}/>
         <Route path='/Signin' element = {<Signin/>}/>
+        <Route path='/Dashspon' element = {<Dashspon/>}/>
+        <Route path='/Searchsch' element = {<Searchsch/>}/>
         <Route path='*' element = {<Notfound/>}/>
       </Routes>
     </BrowserRouter>
