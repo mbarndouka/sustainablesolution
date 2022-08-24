@@ -8,6 +8,7 @@
 :root{
     --text-color1: rgba(255,255,255,1);
     --text-color2: rgba(0,0,0,1);
+    --text-color-3:rgba(204, 127, 0, 1);
     --background-color1: rgba(255,255,255,1);
     --background-color2: linear-gradient(rgba(2,64,89,1), rgba(7,4,99,0.75));
     --bacground-nav-color3: linear-gradient(rgba(2,64,89,0.8), rgba(7,4,99,0.16));
@@ -16,6 +17,9 @@
     --background-color6:rgba(2,64,89,1);
     --background-color7:rgba(241,239,1);
     --background-color8: rgba(200,200,200,1);
+    --background-color-9:rgba(2, 64, 89, 1);
+    --background-color-10: rgba(244, 241, 241, 1);
+    --background-color-11:rgba(233, 233, 233, 1);
 }
 
 html, body, #root{
