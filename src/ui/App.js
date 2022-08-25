@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
+import "@fontsource/lexend";
 import Home from './pages/Home/Home';
 import Notfound from './pages/Notfound/Notfound';
 import Loading from './pages/Loading/Loading';
