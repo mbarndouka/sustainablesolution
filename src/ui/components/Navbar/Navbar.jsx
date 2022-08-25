@@ -18,7 +18,7 @@ export default function Navbar() {
       <div className="navbar-third">
         <Link className='third-link' to="/Signup"> Register</Link>
         <Link className='third-link' to="/Signin"> Log in</Link>
-        <Button> </Button>
+        <Button> Get started</Button>
       </div>
     </div>
   )
