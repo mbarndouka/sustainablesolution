@@ -1,0 +1,52 @@
+.Footer{
+    height: 300px;
+    font-family: var(--font-family);
+    color: var(--text-color1);
+    background: var(--bacground-footer);
+    padding: 82px  94px;
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+
+.footer-first{
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+
+.footer-first img{
+    height: 71px;
+    width: 100px;
+}
+
+.send-info{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.send-info input{
+    height: 40px;
+    width: 318px;
+    border-radius: 6px;
+    padding: 10px 10px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid #FDFDFD;
+    outline: none;
+}
+
+::placeholder{
+    color: var(--text-color1);
+    font-family: var(--font-family);
+}
+
+.footer-second{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer-second p{
+    cursor: pointer;
+}
