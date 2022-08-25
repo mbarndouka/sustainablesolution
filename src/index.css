@@ -10,6 +10,8 @@
     --text-color-3:rgba(204, 127, 0, 1);
     --background-color1: rgba(255,255,255,1);
     --background-color2: linear-gradient(rgba(2,64,89,1), rgba(7,4,99,0.75));
+    --background-color-3: linear-gradient(90deg, #024059 0%, rgba(7, 4, 99, 0.75) 100%);
+
     --bacground-nav-color3: linear-gradient(90deg, rgba(2, 64, 89, 0.8) 0%, rgba(7, 4, 99, 0.16) 100%);
     --bacground-color4: rgba(204,127,0,1);
     --bacground-color5: rgba(228,247,255,1);
@@ -19,6 +21,7 @@
     --background-color-9:rgba(2, 64, 89, 1);
     --background-color-10: rgba(244, 241, 241, 1);
     --background-color-11:rgba(233, 233, 233, 1);
+    --background-color-12: #727290;
 
     --font-family: "Lexend";
 
@@ -33,13 +36,15 @@
     --font-size-2: 16px;
     --font-size-3: 18px;
     --font-size-4: 58px;
+    --font-size-5: 46px;
 
     --line-height: 120%;
+
 }
 
 html, body, #root{
     height: 100%;
     width: 100%;
     font-family: var(--font-family-1);
-    background-color: var(--background-color1);
+    background: var(--background-color1);
 }
