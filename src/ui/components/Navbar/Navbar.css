@@ -2,7 +2,32 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
-    border-bottom: 1px solid gray;
-    padding: 0 30px;
+    padding: 16px 80px;
+    height: 80px;
+    width: 100%;
+    font-family: "Lexend";
+    backdrop-filter: blur(10px);
+    background: var(--bacground-nav-color3);
+}
+
+
+.first-link{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: var(--text-color1);
+    text-decoration: none;
+}
+
+.navbar-third{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    
+}
+
+.third-link{
+    color: var(--text-color1);
+    text-decoration: none;
+    font: var(--font-style),var(--font-weight-1),var(--font-size-1),var(--line-height),var(--font-family);
 }

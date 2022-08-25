@@ -2,8 +2,8 @@ import './index.css';
 
 export default function index() {
   return (
-    <div>
-        index
+    <div className='button'>
+        Get started
     </div>
   )
 }
