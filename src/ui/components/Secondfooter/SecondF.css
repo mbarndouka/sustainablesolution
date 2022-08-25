@@ -1,0 +1,13 @@
+.footer2{
+    height: 72px;
+    background: #070463;
+    font-family: var(--font-family);
+    color: var(--text-color1);
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-1);
+    line-height: var(--line-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
