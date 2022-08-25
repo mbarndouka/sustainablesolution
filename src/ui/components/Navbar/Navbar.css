@@ -35,5 +35,9 @@
 .third-link{
     color: var(--text-color1);
     text-decoration: none;
-    font: var(--font-style),var(--font-weight-1),var(--font-size-1),var(--line-height),var(--font-family);
+    font-style: var(--font-style);
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-1);
+    line-height: var(--line-height);
+    font-family: var(--font-family);
 }
