@@ -1,0 +1,15 @@
+.square{
+    height: 200px;
+    width: 200px;
+    border-radius: 4px;
+    background: #E4E5E7;
+}
+
+.square:hover{
+    background: rgba(2, 64, 89, 1);
+}
+
+.body-form{
+    display: flex;
+    gap: 40px;
+}
