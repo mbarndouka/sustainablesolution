@@ -2,7 +2,7 @@ import './Signup.css';
 import SecondF from '../../components/Secondfooter/SecondF';
 import Logos from '../../../assets/Vector2.svg';
 import Group2 from '../../../assets/Group2.png';
-import Group from '../../../assets/Group.png';
+import Group from '../../../assets/Group.svg';
 import Square from '../../components/Square/index';
 import { Link } from 'react-router-dom';
 
