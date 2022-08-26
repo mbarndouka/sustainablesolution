@@ -270,7 +270,7 @@
     display: flex;
     flex-direction: row;
     gap: 24px;
-    padding: 75px 80px;
+    padding: 75px 80px 75px 80px;
 }
 
 .forth-one{
@@ -307,6 +307,6 @@
 
 .forth-two img{
     height: 400px;
-    width: 600px;
+    width: 560px;
     border-radius: 4px;
 }
