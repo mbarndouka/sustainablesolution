@@ -2,7 +2,7 @@
     font-family: var(--font-family);
 }
 
-.Signup img{
+.signupimg{
     padding: 44px 75px ;
     margin-bottom: 100px;
 }
@@ -11,6 +11,37 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.btn-z{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E4E5E7;
+}
+
+.btn-z img{
+    height: 65px;
+    width: 65px;
+}
+
+.btn-t{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E4E5E7; 
+}
+
+.btn-t img{
+    height: 65px;
+    width: 65px;
+    /* border-radius: 50px; */
 }
 
 .signup-body h1{
@@ -31,7 +62,8 @@
     margin-bottom: 150px;
 }
 
-.connect{
+.Connect{
     text-decoration: none;
     color: rgba(7, 4, 99, 1);
 }
+

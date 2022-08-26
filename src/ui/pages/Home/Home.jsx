@@ -56,7 +56,7 @@ export default function Home() {
             </div>
           </div>
           <div className="second-second-s">
-            <Button>Learn more</Button>
+            <Button className='btn'>Learn more</Button>
           </div>
         </div>
       </div>
