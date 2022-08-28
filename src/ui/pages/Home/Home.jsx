@@ -17,7 +17,7 @@ export default function Home() {
         <Navbar/>
       {/* </div> */}
       <div className="home-first">
-        <img src={Frame} alt="" />
+        <img className="frame" src={Frame} alt="" />
         <div className="home-text-start">
           <div className="first-writting-1">
             Think Different, feel the difference.
@@ -32,6 +32,9 @@ export default function Home() {
         </div>
       </div>
       <div className="home-second">
+      <div className="second-second-s-1">
+            <Button className='btn'>Learn more</Button>
+          </div>
         <div className="second-first">
           <div className="div1">
           Think big, change the world
