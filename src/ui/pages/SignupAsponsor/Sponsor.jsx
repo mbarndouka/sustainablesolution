@@ -1,7 +1,7 @@
 import './signupsponsor.css'
 
 
-export default function signupsponsor() {
+export default function Signupsponsor() {
   return (
     <div>
         signupsponsor

@@ -62,3 +62,8 @@
     color: rgba(7, 4, 99, 1);
 }
 
+.endlink{
+    text-decoration: none;
+    color: var(--text-color2);
+}
+
