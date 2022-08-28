@@ -32,9 +32,6 @@ export default function Home() {
         </div>
       </div>
       <div className="home-second">
-      <div className="second-second-s-1">
-            <Button className='btn'>Learn more</Button>
-          </div>
         <div className="second-first">
           <div className="div1">
           Think big, change the world
