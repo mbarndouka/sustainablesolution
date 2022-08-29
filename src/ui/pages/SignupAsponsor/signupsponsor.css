@@ -1,0 +1,66 @@
+.sponsor{
+    width: 100%;
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    line-height: var(--line-height);
+}
+
+.logo33{
+    margin-top: 43px;
+    margin-left: 75px;
+    margin-bottom: 32px;
+}
+
+.retrive{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 49px;
+}
+
+.retrive h1{
+    font-weight: var(--font-weight-4);
+    font-size: var(--font-size-6);
+    margin-bottom: 49px;
+}
+
+.googleapplle{
+    height: 120px;
+    width: 650px;
+    margin-bottom: 20px;
+    border: 1px solid;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.line:before{
+    content:"";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 300px;
+    margin-right: 10px;
+    margin-left: -100%;
+    border-top: 2px solid #C4C4C4;
+}
+
+.line:after{
+    content:"";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 300px;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 2px solid #C4C4C4;
+}
+
