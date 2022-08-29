@@ -50,3 +50,59 @@
 .footer-second p{
     cursor: pointer;
 }
+
+.repon{
+    display: none;
+}
+
+@media screen  and (max-width: 480px){
+    .Footer{
+        display: flex;
+        flex-direction: column;
+        height: 350px;
+        padding: inherit;
+        /* margin-top: 100px; */
+    }
+
+    .repon{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .repo-logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 33px;
+    }
+
+    .repo-logo img{
+        width: 80px;
+        height: 50px;
+    }
+
+    .dernier{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding: 14px;
+        margin-bottom: 24px;
+    }
+
+    .send-info{
+        padding: 10px 15px;
+    }
+
+    .send-info input{
+        width: 270px;
+    }
+
+    .footer-first{
+        display: none;
+    }
+
+    .footer-second{
+        display: none;
+    }
+}

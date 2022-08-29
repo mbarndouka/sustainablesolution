@@ -9,8 +9,8 @@ export default function Navbar() {
   return (
     <div className='Navbar'>
       <div className="navbar-first">
-        <Link className="first-link" to="/Sidebar"> <img src={List} alt="" /> 
-        <span>Menu</span></Link>
+         <img src={List} alt="" /> 
+        <span>Menu</span>
       </div>
       <div className="navbar-second">
         <img src={Logo} alt="" />
