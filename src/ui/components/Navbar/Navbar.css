@@ -12,6 +12,15 @@
     background: var(--bacground-nav-color3);
 }
 
+.navbar-first{
+    padding: 16px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+
 .first-link{
     display: flex;
     align-items: center;
