@@ -13,6 +13,13 @@ export default function Sponsor() {
           
         </div>
         <p className='line'>or</p>
+        <div className="retrive-first">
+        <input type="text" className='retrive-1' placeholder='First name'/>
+        <input type="text" className='retrive-2' placeholder='Last name'/>
+        </div>
+        <input type="email" className='retrive-3' placeholder='Work email address'/>
+        <input type="password" className='retrive-4' placeholder='Password'/>
+        <input type="select" className='retrive-5' placeholder='Rwanda'/>
       </form>
         <SecondF />
     </div>
