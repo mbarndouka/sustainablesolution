@@ -1,0 +1,43 @@
+.sidebar{
+    width: 300px;
+    height: 100vh;
+    margin-top: 600px;
+    padding: 30px 30px;
+    /* position: relative; */
+    transition: all 1s;
+    background-color: rgba(114, 114, 144, 1);
+}
+
+.closebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 110px;
+    font-family: var(--font-family);
+    background-color: rgba(244, 241, 241, 1);
+    gap: 12px;
+    margin-bottom: 55px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: var(--font-weight-4);
+    font-style: var(--font-style);
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.point{
+    text-decoration: none;
+    color: var(--text-color1);
+}

@@ -8,6 +8,8 @@ import Frame1 from '../../../assets/Frame370.svg'
 import Frame2 from '../../../assets/Frame3701.svg'
 import Frame3 from '../../../assets/Frame3702.svg'
 import Last from '../../../assets/lastimage.jpg'
+// import Sidebar from '../../components/Sidebar/Sidebar';
+
 
 
 export default function Home() {
