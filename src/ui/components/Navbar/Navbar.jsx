@@ -17,6 +17,7 @@ export default function Navbar() {
         <span>Menu</span>
       </div>) :(<Sidebar onClick={()=> setIsOpen(isOPen)}/>)
       }
+
       <div className="navbar-second">
         <img src={Logo} alt="" />
       </div>

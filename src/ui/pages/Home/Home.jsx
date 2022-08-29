@@ -19,7 +19,7 @@ export default function Home() {
         <Navbar/>
       {/* </div> */}
       <div className="home-first">
-        <img src={Frame} alt="" />
+        <img className="frame" src={Frame} alt="" />
         <div className="home-text-start">
           <div className="first-writting-1">
             Think Different, feel the difference.
