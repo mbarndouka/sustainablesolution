@@ -22,7 +22,7 @@ export default function Signup() {
                 </Link>
               </Square>
               <Square>
-              <Link className='endlink' to="/">
+              <Link className='endlink' to="/School">
                 <div className='btn-t'>
                   <img src={Group2} alt="" />
                 </div>

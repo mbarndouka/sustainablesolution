@@ -9,7 +9,8 @@ import Signup from './pages/Signup/Signup';
 import Dashspon from './pages/Dashborbsponsor/Dashspon';
 import Searchsch from './pages/Searchschool/Searhsch';
 import SignAS from './pages/SignupAsponsor/Sponsor';
-import Contactus from './components/Contactus/Contactus'
+import Contactus from './components/Contactus/Contactus';
+import School from './pages/SignAschool/School';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/Signin' element = {<Signin/>}/>
         <Route path='/Contactus' element = {<Contactus/>}/>
         <Route path='/Dashspon' element = {<Dashspon/>}/>
+        <Route path='/School' element = {<School/>}/>
         <Route path='/Searchsch' element = {<Searchsch/>}/>
         <Route path='*' element = {<Notfound/>}/>
       </Routes>

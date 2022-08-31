@@ -1,0 +1,23 @@
+.Signin{
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    line-height: var(--line-height);
+}
+
+.sign-in{
+    margin-top: 44px;
+    margin-left: 70px;
+}
+
+.sign-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.sign-form h1{
+
+}

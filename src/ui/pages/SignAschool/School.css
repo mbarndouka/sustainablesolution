@@ -1,0 +1,39 @@
+.School{
+    width: 100%;
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    line-height: var(--line-height);
+}
+
+.retrive h1{
+    width: 50%;
+    height: 14vh;
+    font-size: var(--font-size-6);
+}
+
+.retrive-1{
+    width: 60%;
+}
+
+@media (max-width: 770px) {
+    .School{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo33{
+        margin-top: 2.6rem;
+        margin-bottom: 2rem;
+    }
+
+    .retrive-1{
+        margin-bottom: -1.5rem;
+    }
+
+    .retrive h1{
+        width: 60%;
+        font-size: var(--font-size-8);
+    }
+}
