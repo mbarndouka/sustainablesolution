@@ -13,7 +13,6 @@ export default function Signup() {
         <div className="signup-body">
           <h1>Join as a sponsor or a school</h1>
           <form className="body-form">
-            
               <Square>
                 <Link to="/SignAS" className='endlink'>
                 <div className='btn-z'>
@@ -22,15 +21,14 @@ export default function Signup() {
                 <span>I&#8217;m a Sponsor</span>
                 </Link>
               </Square>
-            
-            <Link className='endlink' to="/">
               <Square>
+              <Link className='endlink' to="/">
                 <div className='btn-t'>
                   <img src={Group2} alt="" />
                 </div>
                 <span>As school</span>
+                </Link>
                 </Square>
-            </Link>
           </form>
           <p>Already have an account? <Link to="/Signin" className='Connect'>Log in</Link></p>
         </div>

@@ -1,15 +1,17 @@
 .Signup{
     font-family: var(--font-family);
+
 }
 
 .signupimg{
     padding: 44px 75px ;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 
 .signup-body{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 

@@ -6,9 +6,9 @@
 }
 
 .logo33{
-    margin-top: 43px;
-    margin-left: 75px;
-    margin-bottom: 32px;
+    margin-top: 2.6rem;
+    margin-left: 4.6rem;
+    margin-bottom: 2rem;
 }
 
 .retrive{
@@ -18,37 +18,37 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 49px;
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .retrive h1{
     font-weight: var(--font-weight-4);
     font-size: var(--font-size-6);
-    margin-bottom: 49px;
+    width: 65%;
+    height: 6vh;
+    text-align: center;
+    line-height: var(--line-height);
 }
 
 .googleapplle{
-    height: 120px;
-    width: 600px;
-    /* margin-bottom: 20px; */
+    height: 18vh;
+    display: flexbox;
+    width: 60%;
+    box-sizing: border-box;
     border: 1px solid;
 }
 
 .line{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-weight: 600;
     font-size: 12px;
-    /* margin-bottom: 20px; */
 }
 
-.line:before{
+/* .line:before{
     content:"";
     display: inline-block;
     height: 0.5em;
     vertical-align: bottom;
-    width: 270px;
+    width: 100px;
     margin-right: 10px;
     margin-left: -100%;
     border-top: 2px solid #C4C4C4;
@@ -59,58 +59,152 @@
     display: inline-block;
     height: 0.5em;
     vertical-align: bottom;
-    width: 270px;
-    margin-right: -100%;
+    width: 50%;
+    margin-right: 100px;
     margin-left: 10px;
     border-top: 2px solid #C4C4C4;
-}
+} */
 
 .retrive-first{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 600px;
-    height: 36px;
+    width: 60%;
+    height: 2.25rem;
+    gap: 1.5rem;
 }
 
 .retrive-1{
-    width: 280px;
+    width: 22rem;
     border-radius: 5px;
     outline: none;
+    border: none;
+    padding: 10px;
     background: #F1EFEF;
 }
 
 .retrive-2{
-    width: 280px;
+    width: 22rem;
     border-radius: 5px;
     outline: none;
+    border: none;
+    padding: 10px;
     background: #F1EFEF;
 }
 
 .retrive-3{
-    width: 600px;
+    width: 60%;
     height: 36px;
     border-radius: 5px;
     outline: none;
+    border: none;
+    padding: 10px;
     background: #F1EFEF;
 }
 
 .retrive-4{
-    width: 600px;
+    width: 60%;
     height: 36px;
     border-radius: 5px;
     outline: none;
+    border: none;
+    padding: 10px;
     background: #F1EFEF;
 }
 
-.retrive-5{
-    width: 600px;
+.Select1{
+    border: none;
+    outline: none;
+    width: 60%;
     height: 36px;
     border-radius: 5px;
-    outline: none;
-    background: #F1EFEF;
+    font-family: var(--font-family);
+    padding: 10px;
+    font-size: var(--font-size-1);
+}
+
+.script-bottom{
+    font-size: var(--font-size-1);
+
 }
 
 ::placeholder{
+    color: var(--text-color2);
+    margin: auto;
+    /* padding: 10px;
+    margin: 10px; */
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-1);
+}
+
+.sbmtBtn{
+    width: 60%;
+    height: 56px;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--text-color-3);
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    font-weight: var(--font-weight-3);
+    color: var(--text-color1);
+    font-size: 16px;
+    cursor: pointer;
+    min-width: 20px;
+}
+
+.link3{
+    text-decoration: none;
+    color: rgba(7, 4, 99, 1);
+}
+
+.p1{
+    font-size: 14px;
+}
+
+@media (max-width:770px) {
+    .retrive h1{
+        font-weight: var(--font-weight-4);
+        font-size: 24px;
+    }
+
+    .retrive-first{
+        
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .retrive-1{
+        width: 100%;
+        border-radius: 5px;
+    }
     
+    .retrive-2{
+        width: 100%;
+        border-radius: 5px;
+
+    }
+
+    .retrive-3{
+        margin-top: 1.5rem;
+    }
+
+    .sponsor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: inherit;
+    }
+
+    .logo33{
+        margin-top: 2.6rem;
+        margin-bottom: 2rem;
+    }
+
+    .sbmtBtn{
+        min-width: 15%;
+        max-width: 60%;
+    }
 }
