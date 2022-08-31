@@ -8,6 +8,7 @@ import Signin from './pages/signin/Signin';
 import Signup from './pages/Signup/Signup';
 import Dashspon from './pages/Dashborbsponsor/Dashspon';
 import Searchsch from './pages/Searchschool/Searhsch';
+import SignAS from './pages/SignupAsponsor/Sponsor';
 import Contactus from './components/Contactus/Contactus'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/Loading' element={<Loading />} />
         <Route path='/' element ={< Home />}/>
         <Route path='/Signup' element = {<Signup/>}/>
+        <Route path='/SignAS' element = {<SignAS />}/>
         <Route path='/Signin' element = {<Signin/>}/>
         <Route path='/Contactus' element = {<Contactus/>}/>
         <Route path='/Dashspon' element = {<Dashspon/>}/>
