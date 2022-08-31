@@ -1,11 +1,20 @@
 import './signupsponsor.css'
 import SecondF from '../../components/Secondfooter/SecondF';
 import Logos from '../../../assets/Vector2.svg';
-
+import { BiArrowBack } from "react-icons/bi";
+import * as AiIcons from "react-icons/ai";
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 
 export default function Sponsor() {
+  const [showPassword, setShowPassword] = useState("");
+
+  const handleShowPassword =(e)=>{
+    e.preventDefault();
+    setShowPassword((value) => !value);
+  }
+
   return (
     <div className='sponsor'>
       <img src={Logos} alt="logo-company" className='logo33'/>
@@ -20,7 +29,24 @@ export default function Sponsor() {
         <input type="text" className='retrive-2' placeholder='Last name'/>
         </div>
         <input type="email" className='retrive-3' placeholder='Work email address'/>
-        <input type="password" className='retrive-4' placeholder='Password'/>
+        <div className="handleP">
+        <input type={showPassword ? "text" : "password"} className='retrive-4' placeholder='Password'/>
+                {showPassword ? (
+                  <div className="icon">
+                    <AiIcons.AiOutlineEye
+                      id="eyeOne"
+                      onClick={handleShowPassword}
+                    />
+                  </div>
+                ) : (
+                  <div className="icon">
+                    <AiIcons.AiOutlineEyeInvisible
+                      id="eyeTwo"
+                      onClick={handleShowPassword}
+                    />
+                  </div>
+                )}
+        </div>
         <select id='country' value='country' className='Select1'>
           <option value="Rwanda"> Rwanda</option>
           <option value="Tanzania">Tanzania</option>
@@ -28,7 +54,7 @@ export default function Sponsor() {
         </select>
         <div className='script-bottom'>
           <input type="checkbox" id="send" name="send" value="send"/>
-          <label for="vehicle1"> Send me emails with tips on how to connect with schools that meet my interests.</label>
+          <label for="send"> Send me emails with tips on how to connect with schools that meet my interests.</label>
         </div>
         <button type="submit" className='sbmtBtn'> Create my account</button>
         <p className='p1'>Already have an account? <Link to="/Signin" className='link3'> Log in</Link></p>

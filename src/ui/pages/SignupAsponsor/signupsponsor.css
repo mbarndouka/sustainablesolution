@@ -103,14 +103,14 @@
 }
 
 .retrive-4{
-    width: 60%;
+    width: 100%;
     height: 36px;
     border-radius: 5px;
     outline: none;
     border: none;
-    padding: 10px;
     background: #F1EFEF;
 }
+
 
 .Select1{
     border: none;
@@ -139,7 +139,7 @@
 
 .sbmtBtn{
     width: 60%;
-    height: 56px;
+    height: 40px;
     border-radius: 50px;
     border: none;
     background-color: var(--text-color-3);
@@ -159,6 +159,19 @@
 
 .p1{
     font-size: 14px;
+}
+
+.handleP{
+    width: 60%;
+    height: 36px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F1EFEF;
 }
 
 @media (max-width:770px) {
