@@ -1,7 +1,6 @@
 import './signupsponsor.css'
 import SecondF from '../../components/Secondfooter/SecondF';
 import Logos from '../../../assets/Vector2.svg';
-import { BiArrowBack } from "react-icons/bi";
 import * as AiIcons from "react-icons/ai";
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
