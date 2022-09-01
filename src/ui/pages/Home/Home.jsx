@@ -1,33 +1,27 @@
 import './Home.css'
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
-import Frame from '../../../assets/Frame 21.svg'
-import Button from '../../components/button/index'
-import Welcome from '../../../assets/welcome.svg'
-import Frame1 from '../../../assets/Frame370.svg'
-import Frame2 from '../../../assets/Frame3701.svg'
-import Frame3 from '../../../assets/Frame3702.svg'
+import Welcome from '../../../assets/welcome1.png'
+import Frame1 from '../../../assets/photo1.jpg'
+import Frame2 from '../../../assets/photo2.jpg'
+import Frame3 from '../../../assets/photo3.jpg'
 import Last from '../../../assets/lastimage.jpg'
-// import Sidebar from '../../components/Sidebar/Sidebar';
 
 
 
 export default function Home() {
   return (
     <div className='home'>
-      {/* <div className='nav'> */}
         <Navbar/>
-      {/* </div> */}
       <div className="home-first">
-        <img className="frame" src={Frame} alt="" />
         <div className="home-text-start">
-          <div className="first-writting-1">
+          <h1 className="first-writting-1">
             Think Different, feel the difference.
-          </div>
-          <div className="first-writting-2">
+          </h1>
+          <p className="first-writting-2">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis consectetur lorem tortor enim
-          </div>
-          <Button>Get Started</Button>
+          </p>
+          <input type="button" value="Get started" />
         </div>
         <div className="home-image">
             <img src={Welcome} alt="" />
@@ -58,7 +52,7 @@ export default function Home() {
             </div>
           </div>
           <div className="second-second-s">
-            <Button className='btn'>Learn more</Button>
+            <input type="button" value="Learn more" className='Btnw'/>
           </div>
         </div>
       </div>
@@ -82,7 +76,7 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus non malesuada diam tortor turpis nulla. Eros elementum leo arcu non morbi a cursus facilisi eu. Ultrices nisi, pharetra, gravida egestas. Volutpat vitae, malesuada velit a nulla nisl in. Et egestas tincidunt ipsum auctor duis diam varius condimentum. Magna est venenatis pulvinar est et. Magna ut tempus non quis at id. Orci ac at vestibulum mauris.</p>
         </div>
         <div className="forth-two">
-          <img src={Last} alt="" />
+          <img src={Last} alt="" className='lastimg'/>
         </div>
       </div>
         <Footer/>
