@@ -1,34 +1,45 @@
 .Signup{
     font-family: var(--font-family);
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1.5rem;
+    padding: 27px 0 0 0;
 }
 
-.signupimg{
-    padding: 44px 75px ;
-    /* margin-bottom: 100px; */
-}
+
 
 .signup-body{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    gap: 5rem;
 }
 
 .btn-z{
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* text-align: center; */
     background: #E4E5E7;
 }  
 
+.btn-z img{
+    height: 50%;
+    width: 90%;
+}
+
 .btn-t{
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,9 +47,15 @@
 }
 
 .btn-t img{
-    height: 65px;
-    width: 65px;
-    /* border-radius: 50px; */
+    height: 60%;
+    width: 60%;
+}
+
+
+.signup-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .signup-body h1{
@@ -47,7 +64,7 @@
     line-height: var(--line-height);
     color: var(--text-color2);
     font-style: var(--font-style);
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .signup-body p{
@@ -55,8 +72,9 @@
     font-weight: var(--font-weight-1);
     font-style: var(--font-style);
     line-height: var(--line-height);
-    margin-top: 60px;
-    margin-bottom: 150px;
+    padding: 25px;
+    /* margin-top: 60px;
+    margin-bottom: 150px; */
 }
 
 .Connect{
@@ -69,3 +87,67 @@
     color: var(--text-color2);
 }
 
+.body-form{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+.carre{
+    height: 12.5rem;
+    width: 50%;
+    border-radius: 4px;
+    background: #E4E5E7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.carre:hover{
+    background: rgba(2, 64, 89, 1);
+    color: var(--text-color1);
+}
+
+.now{
+    width: 100%;
+}
+
+@media (max-width:770px) {
+    .signup-body h1{
+        font-size: var(--font-size-8);
+        width: 300px;
+        text-align: center;
+    }
+}
+
+@media (max-width:480px) {
+    
+    .body-form{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .now{
+        display: none;
+    }
+
+    .carre{
+        width: 100%;
+    }
+
+    .signup-body{
+        width: 100%;
+        gap: 2.5rem;
+    }
+
+    .signup-body p{
+        padding: 15px ;
+    }
+}
