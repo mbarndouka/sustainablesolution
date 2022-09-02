@@ -2,7 +2,6 @@ import './Navbar.css';
 import { Link } from 'react-router-dom';
 import Sidebar from '../Sidebar/Sidebar';
 import Logo from '../../../assets/Vector1.svg';
-import Button from '../button/index';
 import List from '../../../assets/list.svg';
 import "@fontsource/lexend";
 import { useState } from 'react';
