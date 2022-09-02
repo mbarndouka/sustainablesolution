@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 16px 80px; */
-    height: 65px;
+    padding: 16px 50px 16px 50px;
+    height: 9%;
     width: 100%;
     font-family: "Lexend";
     position: fixed;
@@ -13,7 +13,6 @@
 }
 
 .navbar-first{
-    padding: 16px 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,69 +28,65 @@
     gap: 14px;
 }
 
-.navbar-first span{
+.menunav{
     color: var(--text-color1);
+    font-size: 0.8em;
 }
 
-.navbar-second img{
-    margin-left: 200px;
-    padding: 16px 80px;
+.navbar-third2{
+    height: 40px;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+    
 }
 
 .navbar-third{
     display: flex;
     flex-direction: row;
     gap: 24px;
-    margin-left: 24px;
     align-items: center;
-    padding: 16px 80px;
 }
 
 .third-link{
     color: var(--text-color1);
     text-decoration: none;
     font-style: var(--font-style);
-    font-weight: var(--font-weight-1);
-    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-2);
+    font-size: 0.9em;
     line-height: var(--line-height);
     font-family: var(--font-family);
+}
+
+.third-link1{
+    background-color: var(--bacground-color4);
+    text-decoration: none;
+    height: 100%;
+    width: 60%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 @media screen  and (max-width: 480px){
     .Navbar{
         display: flex;
-        flex-direction: row;
         align-items: center;
-        justify-content: inherit;
-        height: 65px; 
+        justify-content: space-between;
+        padding: 16px 43% 16px 5%;
+        height: 9%; 
         position: fixed;
-        width: 480px;
+        width: 100%;
     }
 
     .navbar-first{
         display: flex;
-        align-items: center;
         gap: 10px;
         margin-left: 14px;
-    }
-
-    .navbar-first span{
-        color: var(--text-color1);
-        font-size: var(--font-size-2);
-        font-weight: var(--font-weight-1);
-    }
-
-    .navbar-second{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .navbar-second img{
-        display: flex;
-        align-items: center;
-        margin: inherit;
-        /* padding: 0px 0px 0px 200px; */
     }
 
     .navbar-third{

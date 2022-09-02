@@ -14,17 +14,16 @@ export default function Navbar() {
       {!isOPen ?(
       <div className="navbar-first" onClick={()=> setIsOpen(!isOPen)}>
         <img src={List} alt="" /> 
-        <span>Menu</span>
+        <p className='menunav'>Menu</p>
       </div>) :(<Sidebar onClick={()=> setIsOpen(isOPen)}/>)
       }
 
       <div className="navbar-second">
         <img src={Logo} alt="" />
       </div>
-      <div className="navbar-third">
-        <Link className='third-link' to="/Signup"> Register</Link>
+      <div className="navbar-third2">
         <Link className='third-link' to="/Signin"> Log in</Link>
-        <Button> Get started</Button>
+        <Link className='third-link1' to="/Signup">Get started</Link>
       </div>
     </div>
   )
