@@ -6,7 +6,7 @@ import Frame1 from '../../../assets/photo1.jpg'
 import Frame2 from '../../../assets/photo2.jpg'
 import Frame3 from '../../../assets/photo3.jpg'
 import Last from '../../../assets/lastimage.jpg'
-
+import { Link } from 'react-router-dom'
 
 
 export default function Home() {
@@ -21,7 +21,8 @@ export default function Home() {
           <p className="first-writting-2">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis consectetur lorem tortor enim
           </p>
-          <input type="button" value="Get started" />
+          <input type="submit" value="Get started" className='inputhome'/>
+          
         </div>
         <div className="home-image">
             <img src={Welcome} alt="" />

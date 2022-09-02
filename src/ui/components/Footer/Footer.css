@@ -1,101 +1,141 @@
 .Footer{
-    height: 300px;
+    height: 30vw;
+    width: 100%;
     font-family: var(--font-family);
     color: var(--text-color1);
     background: var(--bacground-footer);
-    padding: 82px  94px;
+    padding: 50px  50px 50px  50px;
     display: flex;
     flex-direction: row;
-    gap: 90px;
 }
 
 .footer-first{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 46px;
+    width: 50%;
 }
 
 .footer-first img{
-    height: 71px;
-    width: 100px;
+    height: 30%;
+    width: 30%;
 }
 
 .send-info{
     display: flex;
     align-items: center;
     gap: 12px;
+    height: 50%;
 }
 
-.send-info input{
+.inputinfi{
     height: 40px;
-    width: 318px;
+    width: 70%;
     border-radius: 6px;
-    padding: 10px 10px;
+    padding: 10px;
     background: rgba(255, 255, 255, 0.3);
     border: 1px solid #FDFDFD;
     outline: none;
 }
 
-::placeholder{
+.inputinfi::placeholder{
     color: var(--text-color1);
     font-family: var(--font-family);
+    font-size: 1.50vw;
+}
+
+.inputinfin{
+    background-color: var(--bacground-color4);
+    font-family: var(--font-family);
+    color: var(--text-color1);
+    font-weight: var(--font-weight-3);
+    font-size: 1.50vw;
+    line-height: var(--line-height);
+    text-align: center;
+    height: 40px;
+    width: 30%;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
 }
 
 .footer-second{
     display: flex;
     flex-direction: column;
     gap: 25px;
+    width: 50%;
+    padding-left: 5%;
+}
+
+.big{
+    font-size: var(--font-size-4);
 }
 
 .footer-second p{
     cursor: pointer;
+    font-size: 1em;
 }
 
 .repon{
     display: none;
 }
 
-@media screen  and (max-width: 480px){
+@media (max-width: 480px){
     .Footer{
         display: flex;
         flex-direction: column;
-        height: 350px;
+        height: 60vw;
         padding: inherit;
-        /* margin-top: 100px; */
+        padding: 0 45px 0 45px;
     }
 
     .repon{
         display: flex;
         flex-direction: column;
         width: 100%;
+        height: 100%;
     }
 
     .repo-logo{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 33px;
+        width: 100%;
+        height: 20%;
     }
 
     .repo-logo img{
-        width: 80px;
-        height: 50px;
+        width: 100%;
+        height: 100%;
     }
 
     .dernier{
         display: flex;
         flex-direction: column;
-        gap: 25px;
-        padding: 14px;
-        margin-bottom: 24px;
+        gap: 15px;
+        width: 100%;
+        height: 50%;
     }
 
     .send-info{
         padding: 10px 15px;
+        height: 30%;
     }
 
-    .send-info input{
-        width: 270px;
+
+    .inputinfin{
+        font-size: 1.50vw;
+        height: 50%;
+        width: 20%;
+        border-radius: 50px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .inputinfi{
+        height: 50%;
+        width: 70%;
     }
 
     .footer-first{

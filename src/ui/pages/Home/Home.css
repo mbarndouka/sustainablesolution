@@ -2,9 +2,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    background: var(--background-color-3);
-    border-bottom: 2px solid;
-    
+    background: var(--background-color-3);    
 }
 
 .home-first{
@@ -47,7 +45,7 @@
     
 }
 
-.home-text-start input{
+.inputhome{
     background-color: var(--bacground-color4);
     font-family: var(--font-family);
     color: var(--text-color1);
@@ -55,13 +53,14 @@
     font-size: var(--font-size-1);
     line-height: var(--line-height);
     text-align: center;
-    height: 8%;
+    height: 3vw;
     width: 30%;
     border-radius: 50px;
     border: none;
     cursor: pointer;
     animation: dissolve 300ms ease-in-out;
 }
+
 
 .home-image img{
     height: 100%;
@@ -305,7 +304,7 @@
     display: flex;
     flex-direction: row;
     gap: 24px;
-    padding: 75px 50px 75px 50px;
+    padding: 60px 50px 60px 50px;
 }
 
 .forth-one{
@@ -316,16 +315,17 @@
     color: var(--text-color1);
     width: 50%;
     height: 100%;
-    gap: 10px;
+    gap: 15px;
 }
 
 .forth-one h1{
-    font-size: var(--font-size-5);
+    font-size: 3.9vw;
     font-weight: var(--font-weight-4);
     font-style: var(--font-style);
     line-height: var(--line-height);
     height: 110px;
-    width: 100%;}
+    width: 100%;
+}
 
 .forth-one p{
     height: 135px;
@@ -624,7 +624,84 @@
     } */
 }
 
+@media (max-width: 480px){
+
+}
 
 @media (max-width:1024px){
+    .home-first{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100vw;
+        align-items: center;
+        width: 100%;
+    }
+
+    .home-text-start{
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .first-writting-1{
+        text-align: center;
+        height: 10vw;
+        width: 60%;
+    }
+
+    .home-image{
+        height: 75%;
+        width: 100%;  
+    }
+
+    .home-text-start input{
+        height: 18%;
+        width: 20%;
+    }
+
+    .first-writting-2{
+        height: 15%;
+        width:50%;
+    }
+
+    .home-forth{
+        height: 70vw;
+        display: flex;
+        flex-direction: column;
+    }  
     
+    .forth-one{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 20%;
+    }
+
+    .forth-two{
+        height: 80%;
+        width: 100%;
+    }
+
+    .forth-one h1{
+        height: 100%;
+        width: 100%;
+        font-size: 3.9vw;
+    }
+
+    .forth-one p{
+        height: 100%;
+        width: 100%;
+    }
+
+    .Btnw{
+        height: 4vw;
+        width: 30%;
+    }
+
+    inputhome{
+        height: 4vw;
+        width: 30%;
+    }
 }

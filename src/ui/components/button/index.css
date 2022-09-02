@@ -3,14 +3,14 @@
     color: var(--text-color1);
     display: flex;
     flex: 1;
-    height: 40px;
-    width: 140px;
-    padding: 12px 30px;
+    height: 4vw;
+    width: 100%;
+    padding: 12px 30px 12px 30px;
     border-radius: 50px;
     cursor: pointer;
     font-weight: var(--font-weight-3);
-    font-size: var(--font-size-1);
+    font-size: 14px;
     line-height: var(--line-height);
-    text-align: center;
-    justify-content: center;
+    /* text-align: center; */
+    /* justify-content: center; */
 }
