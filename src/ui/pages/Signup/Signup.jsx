@@ -12,22 +12,22 @@ export default function Signup() {
         <div className="signup-body">
           <h1>Join as a sponsor or a school</h1>
           <form className="body-form">
+            <Link to="/SignAS" className='endlink'>
               <div className='carre'>
-                <Link to="/SignAS" className='endlink'>
                 <div className='btn-z'>
                   <img src={Group} alt="" />
                 </div>
                 <span>I&#8217;m a Sponsor</span>
-                </Link>
               </div>
-              <div className='carre'>
+              </Link>
               <Link className='endlink' to="/School">
+              <div className='carre'>
                 <div className='btn-t'>
                   <img src={Group2} alt="" />
                 </div>
                 <span>As school</span>
-                </Link>
               </div>
+              </Link>
           </form>
           <p>Already have an account? <Link to="/Signin" className='Connect'>Log in</Link></p>
         </div>

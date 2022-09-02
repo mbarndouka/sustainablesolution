@@ -1,10 +1,10 @@
 .Footer{
-    height: 30vw;
+    height: 23vw;
     width: 100%;
     font-family: var(--font-family);
     color: var(--text-color1);
     background: var(--bacground-footer);
-    padding: 50px  50px 50px  50px;
+    padding: 50px  50px 5px  50px;
     display: flex;
     flex-direction: row;
 }
@@ -42,7 +42,7 @@
 .inputinfi::placeholder{
     color: var(--text-color1);
     font-family: var(--font-family);
-    font-size: 1.50vw;
+    font-size: 0.8rem;
 }
 
 .inputinfin{
@@ -50,7 +50,7 @@
     font-family: var(--font-family);
     color: var(--text-color1);
     font-weight: var(--font-weight-3);
-    font-size: 1.50vw;
+    font-size: 0.8rem;
     line-height: var(--line-height);
     text-align: center;
     height: 40px;
@@ -69,7 +69,7 @@
 }
 
 .big{
-    font-size: var(--font-size-4);
+    font-size: 3.5vw;
 }
 
 .footer-second p{
@@ -81,7 +81,7 @@
     display: none;
 }
 
-@media (max-width: 480px){
+@media  (max-width: 480px){
     .Footer{
         display: flex;
         flex-direction: column;
@@ -125,7 +125,7 @@
 
 
     .inputinfin{
-        font-size: 1.50vw;
+        font-size: 0.8rem;
         height: 50%;
         width: 20%;
         border-radius: 50px;

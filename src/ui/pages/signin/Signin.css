@@ -23,7 +23,7 @@
 .signin-Goap{
     height: 18vh;
     display: flexbox;
-    width: 60%;
+    width: 40%;
     box-sizing: border-box;
     border: 1px solid;
 }
@@ -33,7 +33,7 @@
 }
 
 .signin-retrive{
-    width: 60%;
+    width: 40%;
     height: 36px;
     border-radius: 5px;
     outline: none;
@@ -42,8 +42,16 @@
     background: #F1EFEF;
 }
 
+.signin-retrive::placeholder{
+    color: var(--text-color2);
+    margin: auto;
+    font-family: var(--font-family);
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-1);
+}
+
 .handlePassword{
-    width: 60%;
+    width: 40%;
     height: 36px;
     border-radius: 5px;
     outline: none;
@@ -53,6 +61,14 @@
     align-items: center;
     justify-content: space-between;
     background: #F1EFEF;
+}
+
+.handlePassword ::placeholder{
+    color: var(--text-color2);
+    margin: auto;
+    font-family: var(--font-family);
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-1);
 }
 
 .signin-retrive-password{
@@ -65,7 +81,7 @@
 }
 
 .forgetPass{
-    width: 60%;
+    width: 40%;
     height: 3vh;
     display: flex;
     justify-content: flex-end;
@@ -75,7 +91,7 @@
 }
 
 .signin-sbmtBtn{
-    width: 60%;
+    width: 40%;
     height: 40px;
     border-radius: 50px;
     border: none;

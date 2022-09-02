@@ -33,7 +33,7 @@
 .googleapplle{
     height: 18vh;
     display: flexbox;
-    width: 60%;
+    width: 40%;
     box-sizing: border-box;
     border: 1px solid;
 }
@@ -69,7 +69,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 60%;
+    width: 40%;
     height: 2.25rem;
     gap: 1.5rem;
 }
@@ -93,7 +93,7 @@
 }
 
 .retrive-3{
-    width: 60%;
+    width: 40%;
     height: 36px;
     border-radius: 5px;
     outline: none;
@@ -115,7 +115,7 @@
 .Select1{
     border: none;
     outline: none;
-    width: 60%;
+    width: 40%;
     height: 36px;
     border-radius: 5px;
     font-family: var(--font-family);
@@ -124,13 +124,14 @@
 }
 
 .script-bottom{
-    font-size: var(--font-size-1);
+    font-size: 12px;
 
 }
 
 ::placeholder{
     color: var(--text-color2);
     margin: auto;
+    font-family: var(--font-family);
     /* padding: 10px;
     margin: 10px; */
     font-size: var(--font-size-1);
@@ -138,7 +139,7 @@
 }
 
 .sbmtBtn{
-    width: 60%;
+    width: 40%;
     height: 40px;
     border-radius: 50px;
     border: none;
@@ -162,7 +163,7 @@
 }
 
 .handleP{
-    width: 60%;
+    width: 40%;
     height: 36px;
     border-radius: 5px;
     outline: none;

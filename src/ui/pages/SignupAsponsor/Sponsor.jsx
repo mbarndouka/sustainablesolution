@@ -24,8 +24,8 @@ export default function Sponsor() {
         </div>
         <p className='line'>or</p>
         <div className="retrive-first">
-        <input type="text" className='retrive-1' placeholder='First name'/>
-        <input type="text" className='retrive-2' placeholder='Last name'/>
+          <input type="text" className='retrive-1' placeholder='First name'/>
+          <input type="text" className='retrive-2' placeholder='Last name'/>
         </div>
         <input type="email" className='retrive-3' placeholder='Work email address'/>
         <div className="handleP">

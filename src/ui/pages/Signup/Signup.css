@@ -80,6 +80,7 @@
 .Connect{
     text-decoration: none;
     color: rgba(7, 4, 99, 1);
+    /* font-family: var(--font-family-3); */
 }
 
 .endlink{
@@ -96,8 +97,7 @@
 }
 
 .carre{
-    height: 12.5rem;
-    width: 50%;
+    height: 100%;
     border-radius: 4px;
     background: #E4E5E7;
     display: flex;
@@ -111,12 +111,21 @@
 
 .carre:hover{
     background: rgba(2, 64, 89, 1);
-    color: var(--text-color1);
+    color: white;
 }
+
+.endlink{
+    height: 12.5rem;
+    width: 50%;
+} 
 
 .now{
     width: 100%;
 }
+
+/* .signup-body p{
+    font-family: var(--font-family-1);
+} */
 
 @media (max-width:770px) {
     .signup-body h1{
