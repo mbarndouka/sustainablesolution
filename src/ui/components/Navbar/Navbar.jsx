@@ -9,20 +9,25 @@ import { useState } from 'react';
 
 export default function Navbar() {
   const [isOPen, setIsOpen] = useState(false);
+
+  function handleSideBar() {
+    console.log("open side bar");
+  }
+    
+  window.addEventListener("load", handleSideBar);
+  
+
   return (
     <div className='Navbar'>
-      {!isOPen ?(
-      <div className="navbar-first" onClick={()=> setIsOpen(!isOPen)}>
+      <div className="navbar-first" id="sidebarId" onClick={handleSideBar}>
         <img src={List} alt="" /> 
         <span>Menu</span>
-      </div>) :(<Sidebar onClick={()=> setIsOpen(isOPen)}/>)
-      }
+      </div>
 
       <div className="navbar-second">
         <img src={Logo} alt="" />
       </div>
       <div className="navbar-third">
-        <Link className='third-link' to="/Signup"> Register</Link>
         <Link className='third-link' to="/Signin"> Log in</Link>
         <Button> Get started</Button>
       </div>

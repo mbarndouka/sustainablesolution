@@ -3,13 +3,14 @@
     justify-content: space-between;
     align-items: center;
     /* padding: 16px 80px; */
-    height: 65px;
-    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 85px;
+    width: 100vw;
     font-family: "Lexend";
     position: fixed;
     z-index: 4;
-    backdrop-filter: blur(10px);
-    background: var(--bacground-nav-color3);
+    background: rgb(23,51,108);/*var(--bacground-nav-color3)*/
 }
 
 .navbar-first{
@@ -18,6 +19,7 @@
     justify-content: center;
     align-items: center;
     gap: 14px;
+    cursor: pointer;
 }
 
 
@@ -57,28 +59,31 @@
     font-family: var(--font-family);
 }
 
-@media screen  and (max-width: 480px){
+@media screen  and (min-width: 390px){
     .Navbar{
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: inherit;
-        height: 65px; 
-        position: fixed;
-        width: 480px;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 85px;
+    position: fixed;
+    width: 100vw;
+    padding: 0;
     }
 
     .navbar-first{
         display: flex;
+        padding-left: 16px;
+        width: 10%;
         align-items: center;
-        gap: 10px;
-        margin-left: 14px;
+        flex-direction: row;
+        justify-content: flex-start;
     }
 
     .navbar-first span{
         color: var(--text-color1);
         font-size: var(--font-size-2);
         font-weight: var(--font-weight-1);
+        display: none;
     }
 
     .navbar-second{
@@ -88,13 +93,34 @@
     }
 
     .navbar-second img{
-        display: flex;
-        align-items: center;
-        margin: inherit;
+        /* position: absolute;
+        top: 10px;
+        left: -150px; */
+        display: none;
         /* padding: 0px 0px 0px 200px; */
     }
 
-    .navbar-third{
-        display: none;
+    .navbar-third {
+        display: flex;
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    background: transparent;
+    flex-direction: row;
+    justify-content: end;
+    width: 80%;
+    padding: 0;
+    margin-top: 16px;
+    }
+    .navbar-third div {
+        background-color: var(--bacground-color4);
+    color: var(--text-color1);
+    height: 40px;
+    width: 80px;
+    padding: 12px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: var(--font-weight-3);
+    font-size: var(--font-size-1);
     }
 }

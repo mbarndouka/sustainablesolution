@@ -12,6 +12,9 @@ import SignAS from './pages/SignupAsponsor/Sponsor';
 import Contactus from './components/Contactus/Contactus';
 import School from './pages/SignAschool/School';
 
+import FindSchool from './pages/FindSchool/FindSchool';
+import PageOneDashboard from './pages/Stats/pageOneDashboard';
+
 function App() {
   return (
     <BrowserRouter>
@@ -25,6 +28,8 @@ function App() {
         <Route path='/Dashspon' element = {<Dashspon/>}/>
         <Route path='/School' element = {<School/>}/>
         <Route path='/Searchsch' element = {<Searchsch/>}/>
+        <Route path='/EdgarComponent1' element = {<FindSchool/>}/>
+        <Route path='/EdgarComponent2' element = {<PageOneDashboard/>}/>
         <Route path='*' element = {<Notfound/>}/>
       </Routes>
     </BrowserRouter>
