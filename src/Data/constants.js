@@ -1,0 +1,1 @@
+export const URL_SERVER = "https://educat6.herokuapp.com";
