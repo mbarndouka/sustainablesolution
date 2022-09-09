@@ -11,6 +11,10 @@ import Searchsch from './pages/Searchschool/Searhsch';
 import SignAS from './pages/SignupAsponsor/Sponsor';
 import Contactus from './components/Contactus/Contactus';
 import School from './pages/SignAschool/School';
+// import other components
+import PageOneDashboard from './otherComponents/Stats/pageOneDashboard';
+import FindSchool from './otherComponents/FindSchool/FindSchool';
+
 
 function App() {
   return (
@@ -25,6 +29,8 @@ function App() {
         <Route path='/Dashspon' element = {<Dashspon/>}/>
         <Route path='/School' element = {<School/>}/>
         <Route path='/Searchsch' element = {<Searchsch/>}/>
+        <Route path='/FindSchool' element = {<FindSchool/>}/>
+        <Route path='/Stats' element = {<PageOneDashboard/>}/>
         <Route path='*' element = {<Notfound/>}/>
       </Routes>
     </BrowserRouter>

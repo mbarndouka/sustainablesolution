@@ -1,0 +1,172 @@
+.ConnectionSponsorsContainer {
+    width: 90vw;
+    height: 700px;
+    margin: auto;
+}
+
+.ConnectionSponsorsTitle {
+    width: 95%;
+    height: 50px;
+    margin: auto;
+}
+.ConnectionSponsorsTitle h1 {
+    font-size: 1.8em;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333;
+}
+
+.ConnectionSponsorsBackground {
+    width: 95%;
+    height: 650px;
+    background-color: rgb(197,196,207);
+    margin: auto;
+    border: 5px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.ConnectionSponsorsNav {
+    overflow-y: scroll;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 16px 7px #b4b4b4;
+    position: relative;
+}
+
+#pills-tab {
+    padding: 10px 10px 10px 25px;
+}
+
+#pills-main-tab {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: rgb(4, 25, 75);
+    background-color: transparent;
+    position: relative;
+    transition: all .3s linear;
+}
+
+#pills-archive-tab {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: rgb(4, 25, 75);
+    background-color: transparent;
+    position:relative;
+    transition: all .3s linear;
+}
+
+#pills-main-tab.active::after {
+    background-color: black;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    padding: 2px;
+    left: 0;
+    bottom: -4px;
+    z-index: 1;
+    border-radius: 0;
+}
+#pills-archive-tab.active::after {
+    background-color: black;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    padding: 2px;
+    left: 0;
+    bottom: -4px;
+    z-index: 1;
+    border-radius: 0;
+}
+
+table {
+    margin-top: 20px;
+    position:relative;
+}
+
+#connectionTableHead {
+    background-color: rgb(231,244,255);
+    padding: 3px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#paginationId {
+    margin-left: 20px;
+}
+
+.page-item {
+    border: 1px solid rgb(231,244,255);
+    margin:0;
+}
+
+.page-item a {
+    color: black;
+}
+
+.page-item a:active {
+    background-color: rgb(231,244,255);
+    color: black;
+}
+
+.page-item a:hover {
+    background-color: rgb(231,244,255);
+    color: black;
+}
+
+.page-item a:focus {
+    outline: none;
+}
+
+.tableStatus {
+    width: fit-content;
+    padding: 0 5px 0 5px;
+    background-color: rgb(231,241,251);
+    color: rgb(68,148,240);
+    margin-top: 50px;
+    border-radius: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.tableFirstColumn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.tableFirstColumn img {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+.schoolName {
+    width: fit-content;
+    padding: 0 5px 0 5px;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+.textandtableP {
+    width: fit-content;
+    padding: 0 5px 0 5px;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+

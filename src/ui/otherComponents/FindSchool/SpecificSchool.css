@@ -1,0 +1,193 @@
+.SpecificSchoolContainer {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.251);
+    overflow: scroll;
+    z-index: 100;
+    display: none;
+}
+
+.SpecificSchoolContent {
+    width: 70%;
+    height: 100vh;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    z-index: 200;
+}
+
+.Gallery {
+    width: 50%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.Gallery img {
+    width: 100%;
+    height: 300px;
+}
+
+.SchoolInfo {
+    width: 50%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: white;
+    position: relative;
+}
+
+.closeImg {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.closeImg:hover {
+    width: 45px;
+    height: 45px;
+}
+
+.iconsClass {
+    width: 25px;
+    height: 25px;
+}
+
+.figmaH3 {
+width: 100%;
+height: 36px;
+padding-left: 20px;
+margin-top: 50px;
+
+/* H5 */
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 120%;
+/* identical to box height, or 36px */
+
+
+color: #000000;
+}
+
+.figmaP {
+width: 544px;
+height: 132px;
+margin-top: 50px;
+padding-left: 20px;
+
+/* Text Large */
+
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 120%;
+word-wrap: break-word;
+/* or 22px */
+
+
+color: #000000;
+}
+
+.schoolLocation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.connectButton {
+    /* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 13px 18px;
+gap: 10px;
+
+width: 322px;
+height: 46px;
+margin-left: 20px;
+margin-top: 10px;
+
+/* Bamboo Brown/500 */
+
+background: #CC7F00;
+border-radius: 50px;
+border: none;
+color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bolder;
+transition: all .3s linear;
+}
+
+.connectButton:hover {
+    box-shadow: 3px 3px black;
+}
+
+.connectButton:active {
+    box-shadow: 0 0 black;
+}
+
+.schoolInfoSeparator {
+width: 552px;
+height: 0px;
+margin: 10px auto;
+
+/* Jet/200 */
+
+border: 2px solid #C8C8C8;
+transform: rotate(-0.21deg);
+}
+
+.figmaButtonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.figmaButton {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 13px 16px;
+gap: 10px;
+
+width: fit-content;
+height: fit-content;
+
+/* Silver Polish/100 */
+
+background: #F4F4F4;
+border-radius: 50px;
+border: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bolder;
+transition: all .3s linear;
+}
+
+.figmaButton:hover {
+    box-shadow: 3px 3px black;
+}
+
+.figmaButton:active {
+    box-shadow: 0 0 black;
+}
