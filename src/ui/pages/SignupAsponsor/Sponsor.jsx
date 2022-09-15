@@ -4,6 +4,8 @@ import Logos from '../../../assets/Vector2.svg';
 import * as AiIcons from "react-icons/ai";
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import Buttongoo from '../../components/buttongoogle/index';
+import ButtonApp from '../../components/buttonapple/index'
 
 
 export default function Sponsor() {
@@ -16,11 +18,12 @@ export default function Sponsor() {
 
   return (
     <div className='sponsor'>
-      <img src={Logos} alt="logo-company" className='logo33'/>
+      <img src={Logos} alt="logo-company" className='logo32'/>
       <form action="" className='retrive'>
         <h1>Sign up to start helping out</h1>
         <div className='googleapplle'>
-          
+          <Buttongoo />
+          <ButtonApp />
         </div>
         <p className='line'>or</p>
         <div className="retrive-first">

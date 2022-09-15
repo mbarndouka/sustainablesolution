@@ -3,6 +3,14 @@
     font-family: var(--font-family);
     font-style: var(--font-style);
     line-height: var(--line-height);
+    display: flex;
+    flex-direction: column;
+}
+
+.logo33{
+    margin-top: 40px;
+    padding: 0;
+    height: 50px;
 }
 
 .retrive h1{
@@ -12,7 +20,7 @@
 }
 
 .retrive-1{
-    width: 60%;
+    width: 40%;
 }
 
 @media (max-width: 770px) {
