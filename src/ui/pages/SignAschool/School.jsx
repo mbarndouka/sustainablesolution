@@ -5,6 +5,8 @@ import { useState } from 'react';
 import Logos from '../../../assets/Vector2.svg';
 import * as AiIcons from "react-icons/ai";
 import { Link } from 'react-router-dom';
+import Buttongoo from '../../components/buttongoogle/index';
+import ButtonApp from '../../components/buttonapple/index'
 
 export default function School() {
 
@@ -20,7 +22,8 @@ export default function School() {
         <form action="" className='retrive'>
             <h1>Sign up to be put in touch with a donor</h1>
             <div className='googleapplle'>
-          
+              <Buttongoo />
+              <ButtonApp />
             </div>
                 <p className='line'>or</p>
                 <input type="text" className='retrive-1' placeholder='Name of the school'/>

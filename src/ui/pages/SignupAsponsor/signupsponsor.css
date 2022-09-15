@@ -3,12 +3,14 @@
     font-family: var(--font-family);
     font-style: var(--font-style);
     line-height: var(--line-height);
+    display: flex;
+    flex-direction: column;
 }
 
-.logo33{
-    margin-top: 2.6rem;
-    margin-left: 4.6rem;
-    margin-bottom: 2rem;
+.logo32{
+    margin-top: 40px;
+    padding: 0;
+    height: 50px;
 }
 
 .retrive{
@@ -31,11 +33,13 @@
 }
 
 .googleapplle{
-    height: 18vh;
-    display: flexbox;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     width: 40%;
     box-sizing: border-box;
-    border: 1px solid;
 }
 
 .line{
