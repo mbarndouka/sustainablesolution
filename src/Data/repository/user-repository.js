@@ -37,10 +37,7 @@ export class UserRepositoryImpl{
         }
     );
     const reponse = await request;
-    // save the token 
     if(reponse.status === 201) return true;
-    // const reponseData = await reponse.json();
-    // const savedResponse = await set("user-data", reponseData);
     return false;
     }
 

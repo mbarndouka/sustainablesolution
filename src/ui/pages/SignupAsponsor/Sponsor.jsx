@@ -49,7 +49,6 @@ export default function Sponsor() {
   }
 
   return (
-    isLoading ? <h1>Is loading</h1> :
     <div className='sponsor'>
       <img src={Logos} alt="logo-company" className='logo33'/>
       <form onSubmit={submitUserData} action="POST" className='retrive'>
