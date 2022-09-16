@@ -3,7 +3,7 @@
     font-style: var(--font-style);
     line-height: var(--line-height);
     width: 100%;
-    height: 100%;
+    height: 100vh;
     padding: 22px 0;
 }
 
@@ -21,11 +21,13 @@
 }
 
 .signin-Goap{
-    height: 18vh;
-    display: flexbox;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     width: 40%;
     box-sizing: border-box;
-    border: 1px solid;
 }
 
 .sign-form h1{

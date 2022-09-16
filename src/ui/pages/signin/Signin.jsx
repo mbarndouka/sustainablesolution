@@ -4,7 +4,8 @@ import Logos from '../../../assets/Vector2.svg';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import * as AiIcons from "react-icons/ai";
-
+import Buttongoo from '../../components/buttongoogle/index';
+import ButtonApp from '../../components/buttonapple/index'
 
 
 export default function Signin() {
@@ -20,7 +21,8 @@ export default function Signin() {
       <img src={Logos} alt="our logo" className='sign-in'/>
         <h1>Log in to Educat</h1>
         <div className='signin-Goap'>
-          
+          <Buttongoo />
+          <ButtonApp />
         </div>
         <p className='line1'>or</p>
         <input type="text" className='signin-retrive' placeholder='Name of the school'/>

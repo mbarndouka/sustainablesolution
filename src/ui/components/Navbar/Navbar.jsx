@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <div className='Navbar'>
       {!isOPen ?(
-      <div className="navbar-first" onClick={()=> setIsOpen(!isOPen)}>
+      <div className="navba-first" onClick={()=> setIsOpen(!isOPen)}>
         <img src={List} alt="" /> 
         <p className='menunav'>Menu</p>
       </div>) :(<Sidebar onClick={()=> setIsOpen(isOPen)}/>)

@@ -6,6 +6,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import getFormData from '../../../utils/get-form-data';
 import { UserRepositoryImpl } from '../../../Data/repository/user-repository';
+import Buttongoo from '../../components/buttongoogle/index';
+import ButtonApp from '../../components/buttonapple/index'
 
 
 export default function Sponsor() {
@@ -53,7 +55,8 @@ export default function Sponsor() {
       <form onSubmit={submitUserData} action="POST" className='retrive'>
         <h1>Sign up to start helping out</h1>
         <div className='googleapplle'>
-          
+          <Buttongoo />
+          <ButtonApp />
         </div>
         <p className='line'>or</p>
         <div className="retrive-first">

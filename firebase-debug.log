@@ -1,0 +1,26 @@
+[debug] [2022-09-11T12:54:26.677Z] ----------------------------------------------------------------------
+[debug] [2022-09-11T12:54:26.683Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2022-09-11T12:54:26.685Z] CLI Version:   11.7.0
+[debug] [2022-09-11T12:54:26.685Z] Platform:      linux
+[debug] [2022-09-11T12:54:26.686Z] Node Version:  v16.17.0
+[debug] [2022-09-11T12:54:26.733Z] Time:          Sun Sep 11 2022 14:54:26 GMT+0200 (Central Africa Time)
+[debug] [2022-09-11T12:54:26.734Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-11T12:54:26.770Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-09-11T12:54:26.994Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-11T12:54:26.994Z] > authorizing via signed-in user (mmbarndouka@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/ouragan/sustainablesolution
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
