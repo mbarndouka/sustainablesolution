@@ -13,10 +13,10 @@
     font-family: var(--font-family);
 }
 
-.navba-first{
+.navb-first{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 14px;
 }
@@ -32,7 +32,7 @@
 
 .menunav{
     color: var(--text-color1);
-    font-size: 0.9em;
+    font-size: 1em;
     text-align: center;
 }
 

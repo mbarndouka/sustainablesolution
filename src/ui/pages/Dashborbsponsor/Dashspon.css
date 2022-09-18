@@ -1,9 +1,11 @@
 .dash{
     width: 100%;
     height: 100vh;
+    font-family: var(--font-family);
     display: flex;
-    justify-content:center;
+    flex-direction: column;
     align-items: center;
+    gap: 15%;
 }
 
 .contain{
@@ -11,20 +13,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-width: max-content;
     height: 50%;
     width: 30%;
     border-radius: 10px;
     border: 1px solid;
-    gap: 10px;
 }
 .parg{
-
     font: size 20px;
     padding-bottom: 20px;
 }
+
 .button-conn{
     background-color: #CC7F00;
-    width: 200px;
+    width: 50%;
+    min-width: max-content;
     height: 46px;
     border-radius: 50px;
     border: 1px solid;
