@@ -8,7 +8,7 @@ import {FiBell} from 'react-icons/fi'
 export default function Navbar2(){
     return(
         <header className="Navbar2">
-            <div className='first-nav'>
+            <div className='first-nav2'>
                 <img className='nature' src={List} alt="menu" />
                 <span>Menu</span>
             </div>
@@ -16,9 +16,8 @@ export default function Navbar2(){
                 <img src={Logo} alt="" />
             </div>
             <div className='third-nav'>
+                <FiBell size="25px"/>
                 <img className='avatar-img' src={Avatar} alt="imgper" />
-                
-                <FiBell />
             </div>
         </header>
     );

@@ -14,6 +14,7 @@ import School from './pages/SignAschool/School';
 // import other components
 import PageOneDashboard from './otherComponents/Stats/pageOneDashboard';
 import FindSchool from './otherComponents/FindSchool/FindSchool';
+import Fogetpwd from './pages/Fogetpassword/Fogetpwd';
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
       <Routes>
         <Route path='/Loading' element={<Loading />} />
         <Route path='/' element ={< Home />}/>
-        <Route path='/Signup' element = {<Signup/>}/>
+        <Route  path='/Signup' element = {<Signup/>}/>
+        <Route  path='/Fogetpwd' element = {<Fogetpwd/>}/>
         <Route path='/SignAS' element = {<SignAS />}/>
         <Route path='/Signin' element = {<Signin/>}/>
         <Route path='/Contactus' element = {<Contactus/>}/>
