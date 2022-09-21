@@ -1,5 +1,4 @@
 import { URL_SERVER } from "../constants";
-import { useNavigate } from "react-router-dom";
 
 export class UserRepositoryImpl3{
 
