@@ -88,8 +88,13 @@
     display: flex;
     justify-content: flex-end;
     margin-top: -15px;
-    /* font-weight: var(--font-weight-1); */
+    text-decoration: none !important;
+    color: black;
     font-size: var(--font-size-1);
+}
+
+.forgetPass:hover{
+    color: black;
 }
 
 .signin-sbmtBtn{

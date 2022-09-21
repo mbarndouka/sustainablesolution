@@ -1,10 +1,12 @@
 import {URL_SERVER} from '../constants';
-import {set, get } from "idb-keyval";
+// import {set, get } from "idb-keyval";
 
 export class UserRepositoryImpl{
 
 
-    SIGN_UP_ENDPOINT = "/signup";
+    SIGN_UP_ENDPOINT = "/sponsor/signup";
+    
+
     /**
      * 
      * @param {RegisterUserFormData} UserFormdata 

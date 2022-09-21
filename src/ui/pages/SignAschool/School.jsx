@@ -8,13 +8,13 @@ import { Link } from 'react-router-dom';
 import Buttongoo from '../../components/buttongoogle/index';
 import ButtonApp from '../../components/buttonapple/index';
 import getFormData from '../../../utils/get-form-data';
-import { UserRepositoryImpl } from '../../../Data/repository/user-repository';
+import { UserRepositoryImpl2 } from '../../../Data/repository/user2-repository';
 
 export default function School() {
 
     const [showPassword, setShowPassword] = useState("");
 
-    const userRepository = new UserRepositoryImpl();
+    const userRepository = new UserRepositoryImpl2();
   /**
    * @param {Event} evt
   */
@@ -28,15 +28,15 @@ export default function School() {
       const form = evt.target;
   
       /**
-       * @type {import('../../../Data/models/types').UserModel}
+       * @type {import('../../../Data/models/types2').UserModel2}
       */
   
       const formData = getFormData(form);
       // console.log("okk");
       console.log(formData);
       // setIsloading(true);
-      const resp = await userRepository.registerUser(formData);
-      console.log("response: ", resp);
+      const resp = await userRepository.regesteruser(formData);
+      // console.log("response: ", resp);
     }
   
 
@@ -54,7 +54,7 @@ export default function School() {
               <ButtonApp />
             </div>
                 <p className='line'>or</p>
-                <input type="text" name='firstname'className='retrive-1' placeholder='Name of the school'/>
+                <input type="text" name='nameOfSchool'className='retrive-1' placeholder='Name of the school'/>
                 <input type="email" name='email' className='retrive-3' placeholder='Work email address'/>
                 <div className="handleP">
                     <input type={showPassword ? "text" : "password"} name='password' className='retrive-4' placeholder='Password'/>
@@ -73,8 +73,6 @@ export default function School() {
                         /></div>
                 )}
         </div>
-        <input type="hidden" name="roles" value="school" />
-        <input type="hidden" name="secondName" value="schoolName" />
         <select id='country' name='location' className='Select1'>
           <option value="Rwanda" >Rwanda</option>
           <option value="Tanzania">Tanzania</option>

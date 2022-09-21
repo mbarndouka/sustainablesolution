@@ -7,16 +7,13 @@ import "@fontsource/lexend";
 import { useState } from 'react';
 
 export default function Navbar() {
-  const [isOPen, setIsOpen] = useState(false);
+  // const [isOPen, setIsOpen] = useState(false);
   return (
     <div className='Navbar'>
-      {!isOPen ?(
-      <div className="navba-first" onClick={()=> setIsOpen(!isOPen)}>
+      <div className="navb-first" >
         <img src={List} alt="" /> 
-        <p className='menunav'>Menu</p>
-      </div>) :(<Sidebar onClick={()=> setIsOpen(isOPen)}/>)
-      }
-
+        <span className='menunav'>Menu</span>
+      </div>
       <div className="navbar-second">
         <img src={Logo} alt="" />
       </div>
